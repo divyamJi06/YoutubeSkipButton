@@ -1,0 +1,17 @@
+{
+    
+  "manifest_version": 2,
+  "name": "Youtube Skip Button",
+  "description": "Will Press the Skip Add button as soon as it comes",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
