@@ -6,13 +6,13 @@ timeout = setInterval(() => {
         console.log(skipButton)
         if (skipButton.innerText == "Skip Ad" || skipButton.innerText == "Skip Ads") {
             skipButton.click()
-            console.log("Button Clicked")
-            clearInterval(timeout)
+            console.log("Button Clicked!!")
+            // clearInterval(timeout)
         }
         
-        if (skipButton.innerText == "") {
-            console.log("Closed")
-            clearInterval(timeout)
-        }
+        // if (skipButton.innerText == "") {
+        //     console.log("Closed")
+        //     clearInterval(timeout)
+        // }
     }
 }, 1000);

@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "Youtube Skip Button",
   "description": "Will Press the Skip Add button as soon as it comes",
-  "version": "1.0",
+  "version": "1.01",
   "content_scripts": [
     {
       "matches": [
